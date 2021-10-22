@@ -1,0 +1,18 @@
+2. Ce este AUTO_INCREMENT și când îl folosim?
+AUTO_INCREMENT este un atribut, cu ajutorul căruia putem crea o coloana ce conține o secvența de numere. Este folosit de obicei atunci când ave, nevoie sa cream un număr unic care lucrează drept cheie primara intr-un tabel.
+
+3. Explorați și aflați diferența dintre UNIQUE, PRIMARY și INDEX?
+UNIQUE ne permite sa avem o valoare unica intre toate intrările din tabel.
+PRIMARY ne asigura ca avem un identificator unic pentru fiecare intrare din tabel
+INDEX ne ajuta in căutarea unor date din tabel care pot fi localizate fără a verificam fiecare linie
+
+4. Explorați și aflați cum se folosește tipul de date ENUM.
+ENUM este un tip de date care contine valori alese dintro lista de valori permise care sunt enumerate in specificatiile coloanei la crearea unei tabele.
+
+5. 
+a)INSERT INTO specializare (id_facultate,denumire) VALUES ("1","TI")
+Error Code: 1364. Field 'id_specializare' doesn't have a default value
+b)INSERT INTO nota (id_nota,id_curs,nota) VALUES (21,2,10)	
+Error Code: 1364. Field 'id_student' doesn't have a default value	
+c)INSERT INTO nota (id_nota,id_student,id_curs,nota) VALUES (20,1,2,10)	 Error code:1062. Duplicate entry '20' for key 'nota.PRIMARY'	
+	 
