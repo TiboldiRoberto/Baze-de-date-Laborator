@@ -21,7 +21,3 @@ DELETE FROM materie WHERE denumire LIKE '%tica';
 -- P11
 SELECT id_specializare,id_facultate,denumire FROM specializare;
 SELECT * FROM specializare;
-
-
-
-describe materie;
